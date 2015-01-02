@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{90c3a278-00e6-44eb-b839-eb6f4ab8d913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene">
+      <UniqueIdentifier>{108eb614-2e5c-4afc-a2d9-8d08433df80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Physic">
+      <UniqueIdentifier>{e470dd22-2084-4cca-997c-6e8789870a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{697b69a6-df4f-4fb7-8c72-2a64fc255862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\B2">
+      <UniqueIdentifier>{6df75b73-fc39-4208-831e-c6462983a1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Common">
+      <UniqueIdentifier>{0eff5724-42fb-48ca-ac2c-871912b0643a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Scene\Helper">
+      <UniqueIdentifier>{98160071-b233-4778-add9-aaddc659bcf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>External\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\b2\b2Node.cpp">
+      <Filter>Classes\B2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Physic\GLES-Render.cpp">
+      <Filter>Classes\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Physic\GB2ShapeCache-x.cpp">
+      <Filter>Classes\Physic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PhysicLayer.cpp">
+      <Filter>Classes\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2\b2PhysicObject.cpp">
+      <Filter>Classes\B2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2\Planet.cpp">
+      <Filter>Classes\B2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2\Ball.cpp">
+      <Filter>Classes\B2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\MainScene.cpp">
+      <Filter>Classes\Scene\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene\PhysicDelegate.cpp">
+      <Filter>Classes\Scene\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2\b2NodeManager.cpp">
+      <Filter>Classes\B2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\B2\RagDoll.cpp">
+      <Filter>Classes\B2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>External\win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\b2\b2Node.h">
+      <Filter>Classes\B2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Physic\GLES-Render.h">
+      <Filter>Classes\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Physic\GB2ShapeCache-x.h">
+      <Filter>Classes\Physic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\ResourceDefine.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\GameConfig.h">
+      <Filter>Classes\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PhysicLayer.h">
+      <Filter>Classes\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2\b2PhysicObject.h">
+      <Filter>Classes\B2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2\Planet.h">
+      <Filter>Classes\B2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2\Ball.h">
+      <Filter>Classes\B2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\MainScene.h">
+      <Filter>Classes\Scene\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene\PhysicDelegate.h">
+      <Filter>Classes\Scene\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2\b2NodeManager.h">
+      <Filter>Classes\B2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\B2\RagDoll.h">
+      <Filter>Classes\B2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>External\resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
